@@ -1,6 +1,3 @@
-
-# AQI Prediction Using RBFNN
-
 # AQI Prediction Using RBFNN
 
 This project applies a **Radial Basis Function Neural Network (RBFNN)** to predict the **Air Quality Index (AQI)** based on pollutant data collected from Indian cities. The model is trained using the `city_day.csv` dataset, which contains daily air pollution readings along with AQI values.  
@@ -46,7 +43,7 @@ Built and developed by Amith S Patil, Asher Jarvis Pinto, Henry Gladson, Fariza 
 
 ---
 
-## Model Performance ( Non Scaled )
+## Model Performance ( Non-Scaled )
 
 ```
 MSE: 2442.1114451020526
