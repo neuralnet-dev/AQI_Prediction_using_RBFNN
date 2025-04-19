@@ -66,7 +66,6 @@ sigma = np.median(pairwise_distances)/np.sqrt(2)
 
 distances_train = cdist(X_train, centers, 'euclidean')
 R_train = np.exp(- (distances_train ** 2) / (2 * sigma ** 2))
-#R_train​⋅W=ytrain​
 W = np.dot(np.linalg.pinv(R_train), y_train)
 
 distances_test = cdist(X_test, centers, 'euclidean')
