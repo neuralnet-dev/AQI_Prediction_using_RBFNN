@@ -57,4 +57,6 @@ RMSE: 0.3464
 R² Score: 0.8760
 ```
 
+---
+
 Make sure `city_day.csv` is in the same directory.
