@@ -43,12 +43,18 @@ Built and developed by Amith S Patil, Asher Jarvis Pinto, Henry Gladson, Fariza 
 
 ---
 
-## Model Performance ( Non-Scaled )
+## Model Performance 
 
 ```
-MSE: 2442.1114451020526
-RMSE: 49.417723997590706
-R² Score: 0.8725485373085805
+Training Performance :
+MSE: 0.0798
+RMSE: 0.2825
+R² Score: 0.9212
+
+Testing Performance :
+MSE: 0.1200
+RMSE: 0.3464
+R² Score: 0.8760
 ```
 
 Make sure `city_day.csv` is in the same directory.
